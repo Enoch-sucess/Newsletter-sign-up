@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --Red: hsl(4, 100%, 67%);
+  --Orange: hsl(24, 78%, 66%);
   --Blue-800: hsl(234, 29%, 20%);
   --Blue-700: hsl(235, 18%, 26%);
   --Grey: hsl(0, 0%, 58%);
   --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+button:hover {
+  background: linear-gradient(to right, var(--Red), var(--Orange));
 }
